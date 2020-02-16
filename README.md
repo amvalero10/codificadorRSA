@@ -15,3 +15,5 @@ java -jar CodificadorRSA.jar
 2. La aplicación convierte las letras del mensaje M en bloques, aplica RSA a cada bloque y pega los bloques para retornar el mensaje cifrado C.
 
 3. El código de la aplicación  incluye un método exp que recibe a,b,n enteros como parámetro y devuelve a^b mod n.
+
+Por ejemplo, la aplicación recibe M = “HOLA", n = 2537, e = 13, retornar C = 11911906.
